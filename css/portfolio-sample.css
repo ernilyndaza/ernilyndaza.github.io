@@ -730,6 +730,21 @@ https://templatemo.com/tm-538-digital-trend
       padding: 0;
       text-align: left;
     }
+
+    .skills{
+      padding: 7rem;
+    }
+
+    .skills ul li{
+      display: inline-flex;
+      position: relative;
+      width: 20%;
+    }
+  
+    .skills ul li a img{
+      height: 11rem;
+      width: 120%;
+    }
   }
 
   @media screen and (max-width: 767px) {
@@ -763,6 +778,16 @@ https://templatemo.com/tm-538-digital-trend
 
     .footer-link li {
       margin-left: 0;
+    }
+    .skills ul li{
+      display: inline-flex;
+      position: relative;
+      width: 100%;
+    }
+  
+    .skills ul li a img{
+      height: 11rem;
+      width: 100%;
     }
   }
 
