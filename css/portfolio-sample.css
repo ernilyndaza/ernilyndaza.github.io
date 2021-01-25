@@ -795,8 +795,21 @@ https://templatemo.com/tm-538-digital-trend
     }
   }
 
+  @media screen and (max-width: 500px) {
+    .skills ul li{
+      display: inline-flex;
+      position: relative;
+      width: 70%;
+    }
+  
+    .skills ul li a img{
+      height: 10rem;
+      width: 80%;
+    }
+  }
 
-  @media screen and (max-width: 400px) {
+
+  @media screen and (max-width: 412px) {
 
     .skills ul li{
       display: inline-flex;
@@ -806,19 +819,8 @@ https://templatemo.com/tm-538-digital-trend
   
     .skills ul li a img{
       height: 10rem;
-      width: 100%;
+      width: 90%;
     }
   }
 
-  @media screen and (max-width: 412px) {
-    .skills ul li{
-      display: inline-flex;
-      position: relative;
-      width: 80%;
-    }
   
-    .skills ul li a img{
-      height: 10rem;
-      width: 100%;
-    }
-  }
