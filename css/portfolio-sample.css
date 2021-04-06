@@ -191,10 +191,14 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   a {
-    color: var(--link-color);
+    color: var(--dark-color);
     font-weight: normal;
     text-decoration: none;
   }
+
+  a:hover {
+    text-decoration: underline;
+  } 
 
   a:active, 
   a:focus {
@@ -202,9 +206,7 @@ https://templatemo.com/tm-538-digital-trend
     text-decoration: none;
   }
 
-  a:hover {
-    text-decoration: underline;
-  } 
+  
 
 
   ::selection {
@@ -435,7 +437,6 @@ https://templatemo.com/tm-538-digital-trend
     outline: none;
   }
 
-  .owl-theme .owl-dots .owl-dot span {
     background: var(--gray-color);
     width: 50px;
     height: 3px;
