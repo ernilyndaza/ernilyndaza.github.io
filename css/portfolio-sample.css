@@ -196,13 +196,16 @@ https://templatemo.com/tm-538-digital-trend
     text-decoration: none;
   }
 
-  a:hover, 
   a:active, 
   a:focus {
     color: var(--secondary-color);
-    outline: none;
     text-decoration: none;
   }
+
+  a:hover {
+    text-decoration: underline;
+  } 
+
 
   ::selection {
     background: var(--secondary-color);
